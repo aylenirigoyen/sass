@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tituloPrincipal{
+    
+        color: #C1A996;
+        text-align: center;
+        font-size: 3.5rem;
+        font-family: 'Julius Sans One', sans-serif;
+}
+
+#subTitulo{
+    color: rgb(254, 254, 254);
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: black;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0.6rem;    
+    font-family: 'Julius Sans One', sans-serif;
+    color: #C1A996;
+    
+}
+
+nav ul li{
+    color: #C1A996;
+    margin: 0.6rem;
+    
+}
+
+/*index*/
+
+#tituloColeccion{
+    color: black;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+}
+      
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+     
+}
+
+.img img{
+    width: 30%;
+}
+
+
+/*contactanos*/
+
+.formulario {
+
+    width: 50%;  
+    margin-top: 2rem; 
+    margin-bottom: 2rem;  
+    background-color: #C1A996 ; 
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+    }
+
+    .formularioDiv{
+        width: 100%px;
+        padding: 0.6rem;
+        margin: 0.6rem;
+        text-align: center;
+    }
+
+.label{
+    display: block; 
+    float: center
+    
+}
+
+.input{
+  background-color: #fbfbfb; 
+  width: 100%; 
+  height: 2.5rem; 
+  border-radius: 0.3rem;  
+  border-style: solid;  
+  margin-top: 0.6rem;  
+  padding-left: 0.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.formularioBotones{
+    height: 3rem; 
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;   
+  margin-bottom: 1.2rem; 
+  margin-top: 0.6rem;   
+  text-transform: uppercase;
+  background-color: black; 
+  color: #C1A996;
+  border-style: solid; 
+  border-radius: 0.6rem;  
+  width: 100%;   
+  cursor: pointer;
+}
+
+#tituloContactanos{
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1.1rem;
+    background-color: black;
+    color: #C1A996;
+}
+
+/*productos*/
+
+.imgProductos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+
+
+/*footer*/ 
+
+#suscribete{
+    color: rgb(254, 254, 254);
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: black;
+
+}
+
+.email{
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: #C1A996;
+    padding: 2rem;
+    margin: auto;
+}
+
+/*main productos*/
+
+.mainProductos{
+    display: grid;
+    grid-template-areas: "imagen1"
+                         "imagen2"
+                         "imagen3"
+                         "imagen4";
+    justify-content: center;
+}
+
+.imagen1{
+    grid-area: imagen1;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.imagen2{
+    grid-area: imagen2;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+   
+}
+
+.imagen3{
+    grid-area: imagen3;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    
+}
+
+.imagen4{
+    grid-area: imagen4;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+/*MEDIA*/
+
+@media screen and (min-width:600px) {
+
+    .mainProductos{
+        grid-template-areas: "imagen1 imagen2" 
+                             "imagen3 imagen4"
+                             
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+
+    .mainProductos{
+        grid-template-areas: "imagen1 imagen2 imagen3 imagen4"
+                             
+    }
+    
+}
