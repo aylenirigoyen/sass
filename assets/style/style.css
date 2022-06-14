@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body{
+    background: linear-gradient(to left,#C1A996, #ffffff);
+}
 #tituloPrincipal{
     
         color: #C1A996;
@@ -156,6 +159,31 @@ nav ul li{
     margin: auto;
 }
 
+#corazon{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    animation-name: girar;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+}
+
+@keyframes girar{
+    from{
+        transform: rotate(0);
+    } 
+    
+    to{
+        transform: rotate(360deg);
+    }
+
+    
+    
+}
 /*main productos*/
 
 .mainProductos{
