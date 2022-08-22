@@ -67,6 +67,15 @@ nav ul li a {
 
 /*contactanos*/
 
+#texto{
+    color: #C1A996;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+
+}
+
 .formulario {
 
     width: 50%;  
@@ -138,6 +147,10 @@ nav ul li a {
     margin-bottom: 2rem;
 
 }
+
+/*nosotros*/
+
+
 
 
 
