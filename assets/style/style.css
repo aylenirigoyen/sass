@@ -34,9 +34,10 @@ nav ul{
     
 }
 
-nav ul li{
+nav ul li a {
     color: #C1A996;
     margin: 0.6rem;
+    text-decoration:none
     
 }
 
